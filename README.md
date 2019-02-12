@@ -23,7 +23,8 @@
 > 
 > 再次说明：所有的答案只写思路，不会长篇大论的验证，只起到提示作用。
 > 
-> 欢迎大家提PR！
+> 欢迎大家提 PR！！！
+
 
 
 
@@ -51,6 +52,10 @@
 #### 算法
 
 
+##### 常见概念
+- 时间复杂度
+- 空间复杂度
+
 
 ###### 常见的摘要算法：
 - HEX编码
@@ -67,10 +72,10 @@
 - Blowfish
 
 ###### 常见的排序算法
-- 快速排序
+- 快速排序 - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/算法集合/快速排序.md)
 - 堆排序
 - 冒泡排序 - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/算法集合/冒泡排序.md)
-- 选择排序
+- 选择排序 - [链接]()
 - 希尔排序
 - 归并排序
 
@@ -130,30 +135,32 @@
 
 
 ## Runtime
-- 1.实例对象的数据结构？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/1.第一题.md)
-- 2.类对象的数据结构？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/2.第二题.md)
-- 3.元类对象的数据结构? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/3.第三题.md)
-- 4.`Category` 的实现原理？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/4.第四题.md)
-- 5.如何给 `Category` 添加属性？关联对象以什么形式进行存储？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/5.第五题.md)
-- 6.`Category` 有哪些用途？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/6.第六题.md)
-- 7.`Category` 和 `Extension` 有什么区别？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/7.第七题.md)
-- 8.说一下 `Method Swizzling`? 说一下在实际开发中你在什么场景下使用过? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/8.第八题.md)
-- 9.如何实现动态添加方法和属性？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/9.第九题.md)
-- 10.说一下对 `isa` 指针的理解， 对象的`isa` 指针指向哪里？`isa` 指针有哪两种类型？（注意区分不同对象） - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/10.第十题.md)
-- 11.`Obj-C` 中的类信息存放在哪里？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/11.第十一题.md)
-- 12.一个 `NSObject` 对象占用多少内存空间？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/12.第十二题.md)
-- 13.说一下对 `class_rw_t` 的理解？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/13.第十三题.md)
-- 14.说一下对 `class_ro_t` 的理解？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/14.第十四题.md)
-- 15.说一下 `Runtime` 消息解析。- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/15.第十五题.md)
-- 16.说一下 `Runtime` 消息转发。- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/15.第十五题.md)
-- 17.如何运用 `Runtime` 字典转模型？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/17.第十七题.md)
-- 18.如何运用 `Runtime` 进行模型的归解档？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/18.第十八题.md)
-- 19.在 `Obj-C` 中为什么叫发消息而不叫函数调用？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/19.第十九题.md)
-- 20.说一下对 `runtime` 的理解。（主要讲一下消息机制，是对上述的总结）
-- 21.说一下 `Runtime` 的方法缓存？存储的形式、数据结构以及查找的过程？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/21.第二十一题.md)
-- 22.是否了解 `Type Encoding`? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/22.第二十二题.md)
-- 23.`Objective-C` 如何实现多重继承？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/23.第二十三题.md)
-- 24.`Category` 可不可以添加实例对象？为什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/24.第二十四题.md)
+- 实例对象的数据结构？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/1.第一题.md)
+- 类对象的数据结构？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/2.第二题.md)
+- 元类对象的数据结构? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/3.第三题.md)
+- Obj-C 对象、类的本质是通过什么数据结构实现的？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/25.第二十五题.md)
+- Obj-C 中的类信息存放在哪里？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/11.第十一题.md)
+- 一个 NSObject 对象占用多少内存空间？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/12.第十二题.md)
+- 说一下对 class_rw_t 结构体的理解？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/13.第十三题.md)
+- 说一下对 class_ro_t 的理解？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/14.第十四题.md)
+- Category 的实现原理？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/4.第四题.md)
+- 如何给 Category 添加属性？关联对象以什么形式进行存储？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/5.第五题.md)
+- Category 有哪些用途？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/6.第六题.md)
+- Category 和 Class Extension 有什么区别？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/7.第七题.md)
+- Category 可不可以添加实例对象？为什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/24.第二十四题.md)
+- Category 在编译过后，是在什么时机与原有的类合并到一起的？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/26.第二十六题.md)
+- 说一下 Method Swizzling? 说一下在实际开发中你在什么场景下使用过? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/8.第八题.md)
+- Runtime 如何实现动态添加方法和属性？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/9.第九题.md)
+- 说一下对 isa 指针的理解，对象的 isa 指针指向哪里？ isa 指针有哪两种类型？（注意区分不同对象） - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/10.第十题.md)
+- 说一下 Runtime 消息解析。- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/15.第十五题.md)
+- 说一下 Runtime 消息转发。- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/15.第十五题.md)
+- 如何运用 Runtime 字典转模型？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/17.第十七题.md)
+- 如何运用 Runtime 进行模型的归解档？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/18.第十八题.md)
+- 在 Obj-C 中为什么叫发消息而不叫函数调用？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/19.第十九题.md)
+- 说一下 Runtime 的方法缓存？存储的形式、数据结构以及查找的过程？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/21.第二十一题.md)
+- 是否了解 Type Encoding? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/22.第二十二题.md)
+- Objective-C 如何实现多重继承？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/23.第二十三题.md)
+
 
 
 ## Runloop
@@ -189,6 +196,8 @@
 - 8.如何暂停一个 `UIView` 中正在播放的动画？暂停后如何恢复？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/8.第八题.md)
 - 9.说一下 `UIView` 的生命周期？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/9.第九题.md)
 - 10.`UIViewController` 的生命周期？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/10.第十题.md)
+- 11.如何以通用的方法找到当前显示的`ViewController`? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/11.第十一题.md)
+- 12.`setNeedsDisplay` 和 `layoutIfNeeded` 两者是什么关系？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/12.第十二题.md)
 
 ## Foundation
 - 1.`nil`、`NIL`、`NSNULL` 有什么区别？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Foundation/1.第一题.md)
@@ -203,6 +212,11 @@
 - 10.`@synthesize` 和 `@dynamic` 分别有什么作用？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Foundation/10.第十题.md)
 - 11.`Obj-C` 中的反射机制了解吗？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Foundation/11.第十一题.md)
 - 12.`typeof` 和 `__typeof`，`__typeof__` 的区别? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Foundation/12.第十二题.md)
+- 13.如何判断一个文件在沙盒中是否存在？
+- 14.头文件导入的方式？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Foundation/14.第十四题.md)
+- 15.如何将 `Obj-C` 代码改变为 `C++/C` 的代码？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Foundation/15.第十五题.md)
+- 16.知不知道在哪里下载苹果的源代码？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Foundation/16.第十六题.md)
+- 17.`objc_getClass()`、`object_getClass()`、`Class` 这三个方法用来获取类对象有什么不同？
 
 ## 网络
 - 1.`NSUrlConnect`相关知识。
@@ -218,7 +232,7 @@
 - 11.说一下 `OSI` 七层模型的协议? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/网络/11.第十一题.md)
 - 12.`大文件下载` 的功能有什么注意点？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/网络/12.第十二题.md)
 - 13.`断点续传` 功能该怎么实现？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/网络/13.第十三题.md)
-- 14.封装一个网络框架有哪些注意点？
+- 14.封装一个网络框架有哪些注意点？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/网络/14.第十四题.md)
 - 15.`Wireshark`、`Charles`、`Paw` 等工具会使用吗？
 - 16.`NSUrlProtocol`用过吗？用在什么地方了？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/网络/16.第十六题.md)
 - 17.如何在测试过程中 `MOCK` 各种网络环境？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/网络/17.第十七题.md)
@@ -258,6 +272,8 @@
 - 19.如何自定义 `NSOperation` ? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/多线程/19.第十九题.md)
 - 20.`GCD` 与 `NSOperationQueue` 有哪些异同？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/多线程/20.第二十题.md)
 - 21.解释一下多线程中的死锁？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/多线程/21.第二十一题.md)
+- 22.子线程是否会出现死锁？说一下场景？
+- 23.多线程技术在使用过程中有哪些注意事项？
 
 
 
@@ -274,6 +290,7 @@
     - 4.各组件之间的解耦合。
 - 6.还了解哪些项目架构？你之前所在公司的架构是什么样的，简单说一下？
 - 7.从宏观上来讲 `App` 可以分为哪些层？
+- 8.多工程连编之静态库 - [链接](https://blog.csdn.net/DonnyDN/article/details/79657986)
 
 ## 消息传递的方式
 
@@ -294,6 +311,7 @@
 - 15.`Block` 有几种类型？分别是什么？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/消息传递的方式/15.第十五题.md)
 - 16.`Block` 和 `函数指针` 的区别? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/消息传递的方式/16.第十六题.md)
 - 17.说一下什么是`Block`? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/消息传递的方式/16.第十六题.md)
+- 18.`Dispatch_block_t`这个有没有用过？解释一下？
 
 ## 数据存储
 - 1.Sqlite3 
@@ -336,16 +354,20 @@
 ## WebView
 * 1.说一下 `JS` 和 `OC` 互相调用的几种方式？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/WebView/1.第一题.md)
 * 2.在使用 `WKWedView` 时遇到过哪些问题？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/WebView/2.第二题.md)
+* 3.是否了解 `UIWebView` 的插件化？
+* 4.是否了解 `SFSafariViewController` ？
 
 ## 图像处理
-- 1.图像的压缩、解压。
+- 1.一张物理体积20KB、分辨率为 200 * 300 的图片，在内存中占用多大的空间？
+- 2.图像的压缩、解压。
 
 ## iOS 动画
 - 1.简要说一下常用的动画库。- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Animation/1.第一题.md)
 - 2.请说一下对 `CALayer` 的认识。- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Animation/2.第二题.md)
 - 3.解释一下 `CALayer.contents` 属性。- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Animation/3.第三题.md)
-- 4.隐式动画
-- 5.显式动画
+- 4.在 `iOS` 中，动画有哪几种类型？
+- 5.隐式动画
+- 6.显式动画
 
 
 ## 代码管理、持续集成、项目托管
@@ -354,14 +376,18 @@
     - 2.`git merge` 和 `git rebase` 的区别？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/代码管理/1.1-2.md)
     - 3.如何在本地新建一个分支，并 `push` 到远程服务器上？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/代码管理/1.1-3.md)
     - 4.如果 `fork` 了一个别人的仓库，怎样与源仓库保持同步？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/代码管理/1.1-4.md)
-- 2.Svn
+    - 5.总结一下 `Git` 常用的命令？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/代码管理/1.1-5.md)
+- 2.SVN（个人认为过气了）
 - 3.CocoaPods
     - 1.说一下 `CocoaPods` 的原理？
     - 2.如何让自己写的框架支持 `CocoaPods`？
     - 3.`pod update` 和 `pod install` 有什么区别？
     - 4.`Podfile.lock` 文件起什么作用？
-    - 5. `CocoaPods` 常用指令？
+    - 5.`CocoaPods` 常用指令？
     - 6.在使用 `CocoaPods` 中遇到过哪些问题？
+    - 7.如何使用 `CocoaPods` 集成远程私有库？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/代码管理/3.3-7.md)
+    - 8.如果自己写的库需要依赖其他的三方库，该怎么办？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/代码管理/3.3-8.md)
+    - 9.`CocoaPods` 中的 `Subspec` 字段有什么用处？
 - 4.Carthage
 - 5.Fastlane
 - 6.Jenkins
@@ -388,6 +414,8 @@
 
 ## iOS逆向及安全
 
+## Coretext
+
 ## 项目组件化
 - 1.说一下你之前项目的组件化方案？
 - 2.项目的组件化模块应该如何划分？
@@ -397,20 +425,23 @@
 ## 性能优化
 - 1.如何提升 `tableview` 的流畅度？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/性能优化/1.第一题.md)
 - 2.如何使用 `Instruments` 进行性能调优？(Time Profiler、Zombies、Allocations、Leaks)
-- 3.如何优化 `APP` 的启动时间？（感谢 @静待海棠花开 的提醒）
-- 4.如何对 `APP` 进行内存、电量、网络流量的优化？（感谢 @静待海棠花开 的提醒）
-- 5.如何有效降低 `APP` 包的大小？
-- 6.日常如何检查内存泄露？
+- 3.如何优化 `APP` 的启动时间？
+- 4.如何优化 `APP` 的网络流量？
+- 5.如何有效降低 `APP` 包的大小？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/性能优化/5.第五题.md)
+- 6.日常如何检查内存泄露？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/性能优化/6.第六题.md)
 - 7.能不能说一下物理屏幕显示的原理？
 - 8.解释一下什么是屏幕卡顿、掉帧？该如何避免？
 - 9.什么是 `离屏渲染`？什么情况下会触发？该如何应对？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/性能优化/9.第九题.md)
 - 10.如何高性能的画一个圆角？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/性能优化/10.第十题.md)
+- 11.如何优化 `APP` 的内存？
+- 12.如何优化 `APP` 的电量？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/性能优化/12.第十二题.md)
 
 ## 调试技巧 & 软件使用
 - 1.`LLDB` 调试。
 - 2.断点调试 - `breakPoint`。
 - 3.`NSAssert` 的使用。
 - 4.`Charles` 的使用。
+    - 使用 `Charles` 下载过去任意版本的 `App`。
 - 5.`Reveal` 的使用。
 - 6.`iOS` 常见的崩溃类型有哪些？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/调试技巧/6.第六题.md)
 - 7.当页面 `AutoLayout` 出现了问题，怎样快速调试？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/调试技巧/7.第七题.md)
@@ -428,6 +459,7 @@
 - 3.`App` 编译过程有了解吗？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/其他问题/3.第三题.md)
 - 4.说一下对 `APNS` 的认识？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/其他问题/4.第四题.md)
 - 5.`App` 上有一数据列表，客户端和服务端均没有任何缓存，当服务端有数据更新时，该列表在 `wifi` 下能获取到数据，在 4G 下刷新不到，但是在 4g 环境下其他 `App` 都可以正常打开，分析其产生的原因？
+- 6.是否了解链式编程？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/其他问题/6.第六题.md)
 
 
 
